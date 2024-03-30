@@ -21,6 +21,7 @@ html, body{
 .nav__list{
   display: flex;
   list-style: none;
+  gap: 1rem;
 }
 
 .hero{
@@ -105,7 +106,13 @@ main article{
   border-radius: 1rem;
   padding: 1rem;
 }
-
+main ul{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
 main article img{
   width: 100%;
   max-width: 300px;
